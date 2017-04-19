@@ -34,7 +34,7 @@ namespace Acquaint.Native.Droid
 
 			// Azure Mobile Services initilization
 			Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
-
+            
             base.OnCreate();
 
 			CrashManager.Register(this, Settings.HockeyAppId);
