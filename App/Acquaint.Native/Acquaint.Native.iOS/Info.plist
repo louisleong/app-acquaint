@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleName</key>
 	<string>Acquaint N</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.xamarin.acquaintnative</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>MinimumOSVersion</key>
@@ -54,5 +52,7 @@
 	<string>1.51</string>
 	<key>CFBundleDisplayName</key>
 	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>com.louisleong.acquaintnative</string>
 </dict>
 </plist>
