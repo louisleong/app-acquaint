@@ -75,6 +75,7 @@
     <MtouchI18n>other</MtouchI18n>
     <MtouchDebug>False</MtouchDebug>
     <CodesignProvision>be726441-8e0c-4cfd-a3a4-ff9e26f292ae</CodesignProvision>
+    <DefineConstants>__UNIFIED__;__MOBILE__;__IOS__;__ENABLE_TEST_CLOUD__;</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
