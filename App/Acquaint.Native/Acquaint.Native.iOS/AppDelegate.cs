@@ -40,7 +40,7 @@ namespace Acquaint.Native.iOS
 				UpdateDataSourceIfNecessary();
 			};
 
-#if ENABLE_TEST_CLOUD
+#if XTC
 			Xamarin.Calabash.Start();
 #endif
 
