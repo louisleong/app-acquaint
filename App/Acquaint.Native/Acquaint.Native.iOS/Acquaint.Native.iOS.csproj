@@ -42,7 +42,7 @@
     <MtouchUseSGen>True</MtouchUseSGen>
     <MtouchFastDev>True</MtouchFastDev>
     <MtouchDebug>True</MtouchDebug>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchProfiling>True</MtouchProfiling>
     <MtouchI18n>other</MtouchI18n>
     <MtouchSdkVersion>10.3</MtouchSdkVersion>
@@ -56,6 +56,7 @@
     <IOSDebugOverWiFi>False</IOSDebugOverWiFi>
     <IOSDebuggerPort>10000</IOSDebuggerPort>
     <MtouchNoSymbolStrip>False</MtouchNoSymbolStrip>
+    <CodesignProvision>be726441-8e0c-4cfd-a3a4-ff9e26f292ae</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -125,6 +126,8 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodesignKey>iPhone Distribution: Louis Leong (46RVEV4J9W)</CodesignKey>
+    <CodesignProvision>be726441-8e0c-4cfd-a3a4-ff9e26f292ae</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'XTC|iPhone'">
     <OutputPath>bin\iPhone\XTC\</OutputPath>
