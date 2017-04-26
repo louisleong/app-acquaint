@@ -91,6 +91,7 @@
     <CodesignKey>iPhone Developer</CodesignKey>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchI18n>other</MtouchI18n>
+    <DefineConstants>__UNIFIED__;__MOBILE__;__IOS__;XTC</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -119,7 +120,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'XTC|iPhoneSimulator'">
     <OutputPath>bin\iPhoneSimulator\XTC\</OutputPath>
-    <DefineConstants>__UNIFIED__;__MOBILE__;__IOS__;</DefineConstants>
+    <DefineConstants>__UNIFIED__;__MOBILE__;__IOS__;__UNIFIED__;__MOBILE__;__IOS__;XTC</DefineConstants>
     <Optimize>true</Optimize>
     <DebugType>full</DebugType>
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -128,6 +129,7 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodesignKey>iPhone Distribution: Louis Leong (46RVEV4J9W)</CodesignKey>
     <CodesignProvision>be726441-8e0c-4cfd-a3a4-ff9e26f292ae</CodesignProvision>
+    <MtouchDebug>False</MtouchDebug>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'XTC|iPhone'">
     <OutputPath>bin\iPhone\XTC\</OutputPath>
